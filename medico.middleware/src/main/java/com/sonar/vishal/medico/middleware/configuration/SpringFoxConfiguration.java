@@ -42,7 +42,7 @@ public class SpringFoxConfiguration {
     private ApiInfo metadata() {
         return new ApiInfoBuilder()
                 .title(applicationTitle)
-                .description("API Documentation of Medico Middleware Server")
+                .description("Medico Middleware Server API Documentation")
                 .version(applicationVersion)
                 .license(ApiInfo.DEFAULT.getLicense())
                 .termsOfServiceUrl(ApiInfo.DEFAULT.getTermsOfServiceUrl())

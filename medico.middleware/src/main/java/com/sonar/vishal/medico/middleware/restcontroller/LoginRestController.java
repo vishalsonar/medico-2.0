@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("v2")
+@RequestMapping("/v2/auth")
 @Api(tags = TagConstant.AUTHENTICATION_TAG)
 public class LoginRestController {
 
