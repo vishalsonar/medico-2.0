@@ -13,7 +13,6 @@ public class LoginRestController {
 
     @PostMapping("/login")
     public String login() {
-        System.out.println("login");
         return "login";
     }
 }
